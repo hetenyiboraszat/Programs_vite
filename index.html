@@ -7,10 +7,15 @@
     <title>kurvaanyadzsombor</title>
   </head>
   <body>
-    <div>
+    <div class="container">
       <header onclick="onCategClick(event)"></header>
     <h1>Iskolai programok</h1>
+    <div class="info">
+      <p>Hol vannak szabad helyek?</p>
+      <i class="btnicon" data-lucide="square-chevron-right" onclick="availablePrograms()"></i>
+    </div>
     <div class="programs"></div>
+    <footer></footer>
     </div>
     <script type="module" src="/src/main.js"></script>
   </body>

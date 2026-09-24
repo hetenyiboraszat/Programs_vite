@@ -16,9 +16,7 @@ header{
     padding: 10px;
 }
 button{
-    text-transform: initial;
     background: rgba(255, 255, 255, 0.288);
-    border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.062);
     backdrop-filter: blur(9.1px);
     -webkit-backdrop-filter: blur(9.1px);
@@ -44,4 +42,33 @@ button{
     height: 300px;
     text-align: center;
     padding: 8px;
+}
+.activeBtn{    
+    background: rgba(131, 127, 127, 0.288);
+    backdrop-filter: blur(9.1px);
+    -webkit-backdrop-filter: blur(9.1px);
+}
+footer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.562);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.034);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 4px;
+    
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+.btnicon{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
 }
